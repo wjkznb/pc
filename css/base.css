@@ -1,0 +1,38 @@
+body,html,div,p,table,form,td,ul,li,ol,h1,h2,h3,h4,h5,h6,textarea,
+dd,dl,dt,pre,fieldset,legend{
+    margin:0;
+    padding:0;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+}
+ol,ul,li{
+    list-style: none;
+}
+img,input{
+    border:0;
+}
+i,s,em{
+    text-decoration: none;
+    font-style: normal;
+
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom:1;
+}
+/*°æÐÄ*/
+.w{
+    width:1500px;
+    margin: 0 auto;
+}

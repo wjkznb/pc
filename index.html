@@ -1,0 +1,950 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>《装甲战争》官方网站-全球现代战争射击网游</title>
+    <link rel="icon" href="http://zjzz.kongzhong.com/20170112/images/main_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <script src="js/jquery.min.js"></script>
+</head>
+<style>
+    #box {
+        width: 150px;
+        height: 120px;
+        margin: 300px auto;
+        position: relative;
+        perspective: 2000px;
+        margin-left:800px ;
+        margin-top: -267px;
+    }
+
+    #box ul {
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        animation:move 15s 3s infinite both;
+    }
+    @keyframes move {
+        0%{
+            transform:rotateY(0deg);
+        }
+        8%{
+            transform:rotateY(30deg);
+        }
+        15.8%{
+            transform:rotateY(60deg);
+        }
+        25.2%{
+            transform:rotateY(90deg);
+        }
+        33.3%{
+            transform:rotateY(120deg);
+        }
+        40.5%{
+            transform:rotateY(150deg);
+        }
+        50%{
+            transform:rotateY(180deg);
+        }
+        58.1%{
+            transform:rotateY(210deg);
+        }
+        65.2%{
+            transform:rotateY(240deg);
+        }
+        74.3%{
+            transform:rotateY(270deg);
+        }
+        81.3%{
+            transform:rotateY(300deg);
+        }
+        90%{
+            transform:rotateY(330deg);
+        }
+        100%{
+            transform:rotateY(360deg);
+        }
+    }
+
+    #box ul li {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 120px;
+        height: 80px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        box-shadow: 0 3px 2px 0 rgba(50, 50, 50, 0.2);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+
+    }
+
+    #box ul li:nth-child(1) {
+        background-image: url("image/350.jpg");
+    }
+
+    #box ul li:nth-child(2) {
+        background-image: url("image/352.jpg");
+    }
+
+    #box ul li:nth-child(3) {
+        background-image: url("image/354.jpg");
+    }
+
+    #box ul li:nth-child(4) {
+        background-image: url("image/356.jpg");
+    }
+
+    #box ul li:nth-child(5) {
+        background-image: url("image/358.jpg");
+    }
+
+    #box ul li:nth-child(6) {
+        background-image: url("image/360.jpg");
+    }
+
+    #box ul li:nth-child(7) {
+        background-image: url("image/362.jpg");
+    }
+
+    #box ul li:nth-child(8) {
+        background-image: url("image/364.jpg");
+    }
+
+    #box ul li:nth-child(9) {
+        background-image: url("image/273.jpg");
+    }
+
+    #box ul li:nth-child(10) {
+        background-image: url("image/277.jpg");
+    }
+    #box ul li:nth-child(11){
+        background-image: url("image/279.jpg");
+    }
+    #box ul li:nth-child(12){
+        background-image: url("image/281.jpg");
+    }
+    /*操作的是整体的效果 */
+
+
+    .boxGradient{
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -500px;
+        margin-top: -500px;
+        background: radial-gradient(500px 500px at center,rgba(50,50,50,1),rgba(255,255,255,0));
+        background: -webkit-radial-gradient(500px 500px at center,rgba(50,50,50,1),rgba(255,255,255,0));
+        transform: rotateX(90deg) translateZ(-150px);
+        -webkit-transform:rotateX(90deg) translateZ(-150px);
+
+    }
+
+
+</style>
+<body>
+<div id="father">
+    <div class="logo1">
+        <div class="logo2">
+            <ul>
+                <li><a href="">官方首页
+                </a>
+                    <span>ENTER</span>
+                </li>
+                <li><a href="">新闻资讯</a>
+                    <span>NEWS</span>
+                </li>
+                <li><a href="">热卖商城</a>
+                    <span>SHOP</span>
+                </li>
+                <li><a href="">游戏资料</a>
+                    <span>DATA</span>
+                </li>
+                <li><a href="">玩家互动</a>
+                    <span>LNTE</span>
+                </li>
+            </ul>
+            <div class="son" id="son">
+                <table width="700px" height="230px">
+                    <tr align="center">
+                        <td><a href="javaScript:;">进入官网</a></td>
+                        <td><a href="javaScript:;">最新福利</a></td>
+                        <td><a href="javaScript:;">天猫商城</a></td>
+                        <td><a href="javaScript:;">新手教学</a></td>
+                        <td><a href="javaScript:;">官方论坛</span></a></td>
+                    </tr>
+                    <tr align="center">
+                        <td><a href="javaScript:;">注册账号</a></td>
+                        <td><a href="javaScript:;">游戏公告</a></td>
+                        <td><a href="javaScript:;">军武商城</a></td>
+                        <td><a href="javaScript:;">游戏特色</a></td>
+                        <td><a href="javaScript:;">游戏贴吧</a></td>
+                    </tr>
+                    <tr align="center">
+                        <td><a href="javaScript:;">下载游戏</a></td>
+                        <td><a href="javaScript:;">热门活动</a></td>
+                        <td><a href="javaScript:;"></a></td>
+                        <td><a href="javaScript:;"></a></td>
+                        <td><a href="javaScript:;">新浪微博</a></td>
+                    </tr>
+                    <tr align="center">
+                        <td><a href="javaScript:;"></a></td>
+                        <td><a href="javaScript:;">媒体新闻</a></td>
+                        <td><a href="javaScript:;"></a></td>
+                        <td><a href="javaScript:;"></a></td>
+                        <td><a href="javaScript:;"></a></td>
+                    </tr>
+                    <tr align="center">
+                        <td><a href="javaScript:;"></a></td>
+                        <td><a href="javaScript:;">社区资讯</a></td>
+                        <td><a href="javaScript:;"></a></td>
+                        <td><a href="javaScript:;"></a></td>
+                        <td><a href="javaScript:;"></a></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+<div class="banner">
+    <video src="image/tk.mp4" autoplay loop></video>
+    <div class="quan4"><a href=""><img src="image/video_quan4.png" alt=""/></a></div>
+    <div class="san"><a href=""><img src="image/video_san.png" alt=""/></a></div>
+    <div class="box">
+        <div class="close"><a href=""><img src="image/close.jpg" alt=""/></a></div>
+        <div class="wx"><img src="image/wx.jpg" alt=""/><p>扫官方关注微信赢<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;取限量礼包</p></div>
+        <div class="box5">
+        <div class="box1"><a href=""><img src="image/pf_icon1.png" alt=""/><f>官方论坛</f></a></div>
+        <div class="box2"><a href=""><img src="image/pf_icon2.png" alt=""/><f>官方贴吧</f></a></div>
+        <div class="box3"><a href=""><img src="image/pf_icon3.png" alt=""/><f>官方微博</f></a></div>
+        <div class="box4"><a href=""><img src="image/pf_icon4.png" alt=""/><f>官方QQ群<br>320472874</f></a></div>
+        </div>
+        <div class="tou"><a href=""><img src="image/toupiao1.png" alt=""/></a></div>
+        <div class="tou1"><a href=""><img src="image/toupiao2.png" alt=""/></a></div>
+    </div>
+</div>
+<div class="xia">
+    <div class="down">
+        <a href=""><img src="image/down_bg1.png" alt=""/></a>
+    </div>
+    <div class="down1">
+        <a href=""><img src="image/6btn_icon1.png">注册账号</a>
+        <a href=""><img src="image/6btn_icon2.png">新兵礼包</a>
+        <a href=""><img src="image/6btn_icon3.png">天猫商城</a>
+        <a href=""><img src="image/6btn_icon4.png">军武商城</a>
+        <a href=""><img src="image/6btn_icon5.png">游戏特色</a>
+        <a href=""><img src="image/6btn_icon6.png">常见问题</a>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="image/400.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="image/417.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="image/422.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="image/437.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="image/439.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="image/442.jpg" alt=""/></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <!--<div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>-->
+
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+            effect : 'horizontal',
+            preventClicks : false,
+            loop: true,
+            autoplay:true,
+            speed:3000,
+
+            // 如果需要分页器
+            pagination: '.swiper-pagination',
+
+            // 如果需要前进后退按钮
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+
+            // 如果需要滚动条
+            scrollbar: '.swiper-scrollbar',
+        })
+    </script>
+        <div class="new">
+            <div class="new-left">
+                新闻资讯
+                <span>NEWS</span>
+                <div class="more">
+
+                    <a class="bts active" href="javascript:;">最新</a>
+
+                    <a class="bts" href="javascript:;">新闻</a>
+
+                    <a class="bts" href="javascript:;">公告</a>
+
+                    <a class="bts" href="javascript:;">活动</a>
+
+                    <a class="bts" href="javascript:;">社区</a>
+
+                    <a class="bts" href="javascript:;">贴吧</a>
+
+                    <a class="more2" href="http://zz.kongzhong.com/news.html"><img src="image/more.png"></a>
+
+                </div>
+                <div class="news_cons">
+
+                    <div class="news_cons_box" id="aa">
+
+                        <ul class="ouls ulobj">
+
+
+
+                            <li><span>[07-12]</span><a href="" style="color:#FF8100">[公告] 7月21日全球公测开服预告</a></li>
+
+
+
+                            <li><span>[07-13]</span><a href=""style="color:#FF8100">[公告] 装甲战争全球公测FAQ</a></li>
+
+
+
+                            <li><span>[07-12]</span><a href=""style="color:#999999">[活动] 《装甲战争》首批主播招募</a></li>
+
+
+
+                            <li><span>[07-12]</span><a href=""  style="color:#999999">[活动] 手机预约赢超级大礼</a></li>
+
+
+
+                            <li><span>[07-18]</span><a href="">[新闻] 玩《装甲战争》来17173领专属礼包</a></li>
+
+
+
+                            <li><span>[07-18]</span><a href="">[新闻] 7月21日装甲战争打炮不打烊等你来战</a></li>
+
+
+
+                            <li><span>[07-17]</span><a href="">[新闻] 张一山主演大电影花絮片段爆料</a></li>
+
+
+
+                        </ul>
+
+                        <ul class="ouls">
+                            <li><span>[07-12]</span><a href=""  style="color:#999999"></a>[新闻] 玩《装甲战争》来17173领专属礼包</li>
+
+
+
+                            <li><span>[07-12]</span><a href=""  style="color:#999999">[新闻] 7月21日装甲战争打炮不打烊等你来战</a></li>
+
+
+
+                            <li><span>[07-15]</span><a href="">[新闻] 张一山主演大电影花絮片段爆料</a></li>
+
+
+
+                            <li><span>[07-04]</span><a href="">[新闻] 装甲战争三大爆料回顾 大手笔何愁不火</a></li>
+
+
+
+                            <li><span>[06-21]</span><a href="">不想当“军火商”的CEO不是好演员</a></li>
+
+
+
+                            <li><span>[06-21]</span><a href="">尚雯婕跨界唱作装甲战争同名主题曲</a></li>
+
+
+
+                            <li><span>[06-13]</span><a href="" >张一山为明天而战 大电影片花曝不停</a></li>
+
+
+
+
+
+
+                        </ul>
+
+                        <ul class="ouls">
+                            <li><span>[07-12]</span><a href=""  style="color: #999999">[公告] 7月21日全球公测开服预告</a></li>
+
+
+
+                            <li><span>[07-12]</span><a href=""  style="color:#999999">[公告] 装甲战争全球公测FAQ</a></li>
+
+
+
+                            <li><span>[07-15]</span><a href="">[公告] 翻牌送全球公测资源</a></li>
+
+
+
+                            <li><span>[07-04]</span><a href="">[公告] 手机预约赢超级大礼</a></li>
+
+
+
+                            <li><span>[06-21]</span><a href="">[公告] 相约全球公测 《装甲战争》轰鸣内存结束...</a></li>
+
+
+
+                            <li><span>[06-21]</span><a href="">[公告] 关于游戏昵称含特殊符号的用户无法登陆公...</a></li>
+
+
+
+                            <li><span>[06-13]</span><a href="" >[公告]  "全球行动" 模式延长开放公告</a></li>
+
+
+
+
+                        </ul>
+
+                        <ul class="ouls">
+
+
+
+                            <li><span>[07-12]</span><a href=""  style="color:#999999">[活动] 《装甲战争》首批主播招募</a></li>
+
+
+
+                            <li><span>[07-12]</span><a href=""  style="color:#999999">[活动] 手机预约赢超级大礼</a></li>
+
+
+
+                            <li><span>[07-15]</span><a href="">[活动] 天猫商城震撼登场 各种折扣尽情享有</a></li>
+
+
+
+                            <li><span>[07-04]</span><a href="">[活动] 翻牌送全球公测资源 OF-40S拼立得！</a></li>
+
+
+
+                            <li><span>[06-21]</span><a href="">[活动] 积分新玩法！刮刮乐抢激活码！</a></li>
+
+
+
+                            <li><span>[06-21]</span><a href="">[活动] 关注绑定微信即送WZ-1224及领取须知</a></li>
+
+
+
+                            <li><span>[06-13]</span><a href="" >[活动] 迎6月20日轰鸣内测 抢楼赢测试激活码</a></li>
+
+
+
+                        </ul>
+
+                        <ul class="ouls">
+                            <li><span>[07-12]</span><a href=""  style="color:#999999">[社区] 波兰现代骑兵即将加入游戏 竟然没导弹</a></li>
+
+
+
+                            <li><span>[07-12]</span><a href=""  style="color:#999999">[社区] 手机预约赢超级大礼</a></li>
+
+
+
+                            <li><span>[07-15]</span><a href="">[社区] 天猫商城震撼登场 各种折扣尽情享有</a></li>
+
+
+
+                            <li><span>[07-04]</span><a href="">[社区] 翻牌送全球公测资源 OF-40S拼立得！</a></li>
+
+
+
+                            <li><span>[06-21]</span><a href="">[社区] 积分新玩法！刮刮乐抢激活码！</a></li>
+
+
+
+                            <li><span>[06-21]</span><a href="">[社区] 关注绑定微信即送WZ-1224及领取须知</a></li>
+
+
+
+                            <li><span>[06-13]</span><a href="" >[社区] 迎6月20日轰鸣内测 抢楼赢测试激活码</a></li>
+
+
+
+
+
+
+                        </ul>
+
+                        <ul class="ouls">
+                            <li><span>[07-12]</span><a href=""  style="color:#999999">[贴吧] 装甲战争新手不翻车 游戏指南第一期</a></li>
+
+
+
+                            <li><span>[07-12]</span><a href=""  style="color:#999999">[贴吧] 全球行动模式打法讲解及新手练车选择</a></li>
+
+
+
+                            <li><span>[07-15]</span><a href="">[贴吧] 游戏内各类型配件的详细介绍及建议</a></li>
+
+
+
+                            <li><span>[07-04]</span><a href="">[贴吧] 装甲战争新手不翻车 游戏指南第二期</a></li>
+
+
+
+                            <li><span>[06-21]</span><a href="">[贴吧] 装甲新手宝典 高级战车弱点击穿详解</a></li>
+
+
+
+                            <li><span>[06-21]</span><a href="">[贴吧] 平衡机制改动2.0  弹药机制的整体优化</a></li>
+
+
+
+                            <li><span>[06-13]</span><a href="" >[贴吧] 【推荐】在W经销商科技树中6级的小狐狸<</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                <div id="box">
+                    <div class="boxGradient"></div>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div class="zt">
+        <ul>
+            <li><a href=""><img src="image/zt_img1.jpg" alt=""/>
+                <span class="sp1">玩转战场</span>
+                <span class="sp2">精英车长速成宝典</span>
+            </a></li>
+            <ul>
+                <li><a href=""><img src="image/zt_img2.jpg" alt=""/>
+                    <span class="sp1">视频征集</span>
+                    <span class="sp2">游戏视频征集活动</span>
+                </a></li>
+            </ul>
+           <ul>
+               <li><a href=""><img src="image/zt_img3.jpg" alt=""/>
+                   <span class="sp1">主播招募</span>
+                   <span class="sp2">明日之星招募计划</span>
+               </a></li>
+           </ul>
+           <ul>
+               <li><a href=""><img src="image/zt_img4.jpg" alt=""/>
+                   <span class="sp1">网咖招募</span>
+                   <span class="sp2">特权网吧招募计划</span>
+               </a></li>
+           </ul>
+
+        </ul>
+    </div>
+    <div class="vig">
+        <div class="vig-left">
+            影音
+            <span>YIDEOS</span>
+            <div class="more1">
+
+                <a class="bt active" href="javascript:;">最新</a>
+
+                <a class="bt" href="javascript:;">大神推荐</a>
+
+                <a class="bt" href="javascript:;">教学视频</a>
+
+                <a class="bt" href="javascript:;">官方视频</a>
+
+                <a class="bt" href="javascript:;">趣味恶搞</a>
+
+                <a class="more2" href="http://zz.kongzhong.com/news.html"><img src="image/more.png"></a>
+
+            </div>
+            <div class="phone" id="phone">
+              <ul class="phone-1s on">
+                  <li><a href=""><img src="image/419.jpg" alt=""/></a></li>
+                  <span class="span1"></span>
+                  <span class="span2"></span>
+              </ul>
+                <ul class="phone-1s">
+                    <li><a href=""><img src="image/384.jpg" alt=""/></a>
+                        <span class="span1"></span>
+                        <span class="span2"></span>
+                    </li>
+                </ul>
+                <ul class="phone-1s">
+                    <li><a href=""><img src="image/385.jpg" alt=""/></a>
+                        <span class="span1"></span>
+                        <span class="span2"></span>
+                    </li>
+                </ul>
+                <ul class="phone-1s">
+                    <li><a href=""><img src="image/386.jpg" alt=""/></a>
+                        <span class="span1"></span>
+                        <span class="span2"></span>
+                    </li>
+                </ul>
+                <ul class="phone-1s">
+                    <li><a href=""><img src="image/387.jpg" alt=""/></a>
+                        <span class="span1"></span>
+                        <span class="span2"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pic_box">
+
+                <dl class="dl_list">
+
+                    <dt>图片 <span>IMAGES</span></dt>
+
+                    <dd>
+
+                        <div class="pic_tabs">
+
+                            <a class="btn active" href="javascript:;">最新</a>
+
+                            <a class="btn" href="javascript:;">壁纸</a>
+
+                            <a class="btn" href="javascript:;">截图</a>
+
+
+                        </div>
+
+                        <div class="pic_cons">
+
+                            <div class="pic_cons_box">
+
+                                <ul>
+
+                                    <li class="mar_r20 mar_b20">
+
+                                        <img src="image/350.jpg">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170711/351.jpg"></a>
+
+                                    </li>
+
+                                    <li class="mar_b20">
+
+                                        <img src="image/352.jpg">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170711/353.jpg"></a>
+
+                                    </li>
+
+                                    <li class="mar_r20">
+
+                                        <img src="image/354.jpg">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170711/355.jpg"></a>
+
+                                    </li>
+
+                                    <li>
+
+                                        <img src="image/356.jpg">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170711/357.jpg"></a>
+
+                                    </li>
+
+                                </ul>
+
+                                <ul>
+
+                                    <li class="mar_r20 mar_b20">
+
+                                        <img src="image/358.jpg">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170711/359.jpg"></a>
+
+                                    </li>
+
+                                    <li class="mar_b20">
+
+                                        <img src="image/360.jpg">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170711/361.jpg"></a>
+
+                                    </li>
+
+                                    <li class="mar_r20">
+
+                                        <img src="image/362.jpg">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170711/363.jpg"></a>
+
+                                    </li>
+
+                                    <li>
+
+                                        <img src="image/364.jpg">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170711/365.jpg"></a>
+
+                                    </li>
+
+                                </ul>
+
+                                <ul>
+
+                                    <li class="mar_r20 mar_b20">
+
+                                        <img src="image/281.jpg" height="100" width="190">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170614/280.jpg"></a>
+
+                                    </li>
+
+                                    <li class="mar_b20">
+
+                                        <img src="image/273.jpg" height="100" width="190">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170614/274.jpg"></a>
+
+                                    </li>
+
+                                    <li class="mar_r20">
+
+                                        <img src="image/277.jpg" height="100" width="190">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170614/276.jpg"></a>
+
+                                    </li>
+
+                                    <li>
+
+                                        <img src="image/279.jpg" height="100" width="190">
+
+                                        <div class="box_shadow"></div>
+
+                                        <a href="javascript:;" class="pic_btn2s" _src="http://img.kongzhong.com/zz/20170614/278.jpg"></a>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </dd>
+
+                </dl>
+
+            <div class="guides_box">
+
+                <dl class="dl_list">
+
+                    <dt>资料 <span>GUIDES</span></dt>
+
+                    <dd>
+
+                        <div class="guides_tit">基础指南</div>
+
+                        <div class="guides_con">
+
+                            <a href="">经销商&nbsp&nbsp&nbsp</a> <span>|</span>
+
+                            <a href="">战斗模式</a> <span>|</span>
+
+                            <a href="">升级研发</a> <span>|</span>
+
+                            <a href="">坦克类型</a> <span>|</span>
+
+                            <a href="">教学视频</a>
+
+                        </div>
+
+                        <div class="guides_tit">进阶介绍</div>
+
+                        <div class="guides_con">
+
+                            <a href="" >移动坦克</a> <span>|</span>
+
+                            <a href="">开炮射击</a> <span>|</span>
+
+                            <a href="">观察地图</a> <span>|</span>
+
+                            <a href="">教学视频</a> <span>|</span>
+
+                        </div>
+
+                        <div class="guides_tit">精英必备</div>
+
+                        <div class="guides_con">
+
+                            <a href="">有效射击</a> <span>|</span>
+
+                            <a href=""></a> <span>|</span>
+
+                            <a href="">点亮隐蔽</a> <span>|</span>
+
+                            <a href="">修理治疗</a><span>|</span>
+
+
+                            <a href="">装备配件</a> <span>|</span>
+
+                            <a href="">教学视频</a>
+
+                        </div>
+
+                    </dd>
+
+                </dl>
+        </div>
+           </div>
+             </div>
+               </div>   
+                    <div class="niu">
+                        <div class="niu1">
+                            <img src="image/tk_img1.jpg" alt=""/>
+                            <img src="image/tk_img2.jpg" alt=""/>
+                            <img src="image/tk_img3.jpg" alt=""/>
+                            <img src="image/tk_img4.jpg" alt=""/>
+                            <img src="image/tk_img5.jpg" alt=""/>
+                        </div>
+                    </div>
+           <div class="hezuo">
+                品牌合作
+          <span>BRANBS</span>
+               <div class="swiper-container1">
+                   <div class="swiper-wrapper">
+                       <div class="swiper-slide"><img src="image/brands_img5.png" alt=""/></div>
+                       <div class="swiper-slide"><img src="image/394.png" alt=""/></div>
+                       <div class="swiper-slide"><img src="image/395.png" alt=""/></div>
+                       <div class="swiper-slide"><img src="image/396.png" alt=""/></div>
+                       <div class="swiper-slide"><img src="image/brands_img2.png" alt=""/></div>
+                       <div class="swiper-slide"><img src="image/brands_img3.png" alt=""/></div>
+                   </div>
+               <div class="swiper-pagination"></div>
+
+               <!-- 如果需要导航按钮 -->
+               <!--<div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>-->
+
+               <!-- 如果需要滚动条 -->
+               <div class="swiper-scrollbar"></div>
+           </div>
+               <div class="footer_box clearfix">
+
+                   <a href="http://www.kongzhong.com/" target="_blank" class="footer_logo"><img src="image/logo_ft.png"></a>
+
+                   <div class="footer_text">
+
+                       <p>公司名称：北京空中信使信息技术有限公司 地址：北京市海淀区西直门外大街168号腾达大厦32层</p>
+
+                       <p>Copyright&copy;KONGZHONG ALL RIGHTS RESERVED. 北京空中信使信息技术有限公司权所有</p>
+
+                       <p>海外运营(Overseas Operation) 审批文号：新广出审【2017】5368号 ISBN 978-7-7979-8979-4</p>
+
+                       <p>文网进字【2015】0064号 京网文[2014]0941-242号<a target="_blank" href="http://zz.kongzhong.com/gonggao/20170215/8.html">&nbsp游戏用户个人信息及隐私保护政策</a></p>
+
+                       <p><a target="black" href="http://zz.kongzhong.com/gonggao/20170215/7.html">免责声明</a> 联系电话：010--82296989 客服邮箱：<a target="_blank" href="mailto:igame_kefu@kongzhong.com">igame_kefu@kongzhong.com</a></p>
+
+                   </div>
+
+               </div>
+               <video src="image/张杰-逆战.mp3" autoplay></video>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container1', {
+        effect : 'horizontal',
+        preventClicks : false,
+        loop: true,
+        autoplay:true,
+        speed:4000,
+
+        // 如果需要分页器
+       /* pagination: '.swiper-pagination',*/
+
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+
+        // 如果需要滚动条
+       /* scrollbar: '.swiper-scrollbar',*/
+    })
+</script>
+            <script>
+                var father=document.getElementById('father');
+                var son=document.getElementById('son');
+
+                /*鼠标移入父div时，显示子div*/
+                father.onmouseover=function(){
+                    son.style.display='block';
+                };
+
+                /*鼠标移出父div时，显示子div*/
+                son.onmouseout=function(){
+                    son.style.display='none';
+                };
+            </script>
+
+            <script type="text/javascript">
+        // 获取要操作的元素
+
+        var lis=document.querySelectorAll('li');
+        var oStyle=document.querySelector('style');
+        for(var i=0;i<lis.length;i++){
+            (function (i) {
+                window.setTimeout(function () {
+                    oStyle.innerHTML+="#box ul li:nth-child("+(i+1)+"){transform:rotateY("+(lis.length-1-i)*30+"deg) translateZ(400px);transition:.7s;transition-delay:"+(i*0.1)+"s}"
+                },i*300);
+            })(i)
+        }
+
+
+    </script>
+
+<script>
+    /*获取父div和子div*/
+    var father=document.getElementById('father');
+    var son=document.getElementById('son');
+
+    /*鼠标移入父div时，显示子div*/
+    father.onmouseover=function(){
+        son.style.display='block';
+    };
+
+    /*鼠标移出父div时，显示子div*/
+    son.onmouseout=function(){
+        son.style.display='none';
+    };
+</script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
